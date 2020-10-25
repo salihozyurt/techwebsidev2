@@ -1,38 +1,85 @@
 .App {
+  height: 100vh;
+}
+
+.navbar-dark {
+  background-color: #116979;
+}
+
+.navbar .fa {
+  color: #de7119;
+}
+
+#FootComp {
+  background-color: #116979;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#FootComp a {
+  padding: 20px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  color: #de7119;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#FootComp p {
+  margin: 0;
+  color: #f0e8e3;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.welcome {
+  opacity: 0.9;
+  border-style: solid;
+  border-color: #de7119;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #116979;
+}
+
+.welcome .fa {
+  margin: 5% auto;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  color: #de7119;
+  transition: all 0.3s ease-in-out;
+}
+
+.welcome .fa:hover {
+  transform: scale(1.2);
+  transform: translateXY(10vh);
+}
+
+.welcome p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome img {
+  height: 20vh;
+  width: 15vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 0px) and (max-width: 679px) {
+  .welcome .fa {
+    font-size: 20px;
+    width: 25px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .welcome img {
+    height: 15vh;
+    width: 35vw;
+  }
+}
+
+@media only screen and (min-width: 680px) and (max-width: 1024px) {
+  .welcome .fa {
+    font-size: 30px;
+    width: 35px;
+  }
+
+  .welcome img {
+    height: 13vh;
+    width: 20vw;
   }
 }
