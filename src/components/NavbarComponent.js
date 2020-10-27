@@ -19,13 +19,13 @@ export class NavbarComponent extends Component {
     toggleNav() {
       this.setState({
         isNavOpen: !this.state.isNavOpen
-      });
+      })
     }
 
     toggleModal() {
         this.setState({
-        isModalOpen: !this.state.isModalOpen
-      })
+            isModalOpen: !this.state.isModalOpen
+        })
     }
 
     componentDidMount() {
@@ -37,7 +37,7 @@ export class NavbarComponent extends Component {
             <div id="NavbarCon" style={{ opacity: 0 }}>
                 <Navbar dark expand="md" fixed="top">
                     <div className="container">
-                        <NavbarBrand className="mr-auto" href="/"><img src="assets/images/HeaderLogo.png" width="100" height="60" /></NavbarBrand>
+                        <NavbarBrand className="mr-auto" href="/"><img src="assets/images/HeaderLogo.png" width="100" height="60" alt="logo" /></NavbarBrand>
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav className="ml-auto" navbar>
@@ -63,7 +63,7 @@ export class NavbarComponent extends Component {
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
                     <ModalHeader toggle={this.toggleModal}>Contact Me</ModalHeader>
                     <ModalBody>
-                        <Contact />
+                        <Contact isModalOpen={this.toggleModal} />
                     </ModalBody>
                 </Modal>
             </div>
