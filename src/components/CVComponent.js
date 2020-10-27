@@ -204,7 +204,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="Bootstrap" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "60%", backgroundColor: "#116979"}}></div>
+                                    <div id="Bootstrap" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
                                 </div>
                             </div>
                         </div>
