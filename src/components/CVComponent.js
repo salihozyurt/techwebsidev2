@@ -24,9 +24,9 @@ export class CVComponent extends Component {
     render() {
         return (
             <div className="container" id="CVComp" style={{ paddingTop: 100, paddingBottom: 75, opacity: 0 }} >
-                <div className="row justify-content-center" style={{ border: "2px solid #116979", borderRadius: "5px", backgroundColor: "#18b0b0"}}>
-                    <div className="col-12 col-lg-2" style={{ textAlign: "center"}}>
-                        <img id="imgTest" src="assets/images/Vesikalik.jpg" width="152" height="152" alt="vesikalik" style={{ border: "solid 2px #116979", borderRadius: "5px" }}/>
+                <div className="row justify-content-center" style={{ border: "2px solid #116979", borderRadius: "5px 50px", backgroundColor: "#18b0b0"}}>
+                    <div className="col-12 col-lg-2" style={{ alignItems: "center", display: "flex", justifyContent: "center"}}>
+                        <img id="imgTest" src="assets/images/Vesikalik.jpg" width="152" height="152" alt="vesikalik" style={{ border: "solid 2px #116979", borderRadius: "5px 50px" }}/>
                     </div>
                     <div className="col-12 col-lg-10">
                         <h2 style={{ color: "white" }}>Salih ÖZYURT</h2>

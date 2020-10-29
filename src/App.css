@@ -32,7 +32,7 @@
   opacity: 0.9;
   border-style: solid;
   border-color: #de7119;
-  border-radius: 10px;
+  border-radius: 5px 100px;
   text-align: center;
   background-color: #116979;
 }
