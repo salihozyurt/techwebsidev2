@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import emailjs from 'emailjs-com'
 import Recaptcha from 'react-recaptcha'
 import { Button, Form, Label, Input } from 'reactstrap'
+import '../styles/ContactStyle.css'
 
 class Contact extends Component {
 
@@ -137,22 +138,18 @@ class Contact extends Component {
                 <Form id="contactForm" onSubmit={self.onFormSubmitHandler.bind(self)}>
                     <div id="form-messages" style={{ color: "#de7119" }}></div>
 
-                    <Label className="text-muted">Name</Label>
                     <Input type="text" id="name" placeholder="Enter Your Name" />
                     <div className="error name"></div>
 
                     <br className="hidden-xs" />
-                    <Label className="text-muted">Email</Label>
                     <Input type="email" id="email" className="text-primary" placeholder="Enter Your Email" />
                     <div className="error email"></div>
 
                     <br className="hidden-xs" />
-                    <Label className="text-muted">Subject</Label>
                     <Input type="text" id="subject" placeholder="Enter Subject" />
                     <div className="error subject"></div>
 
                     <br className="hidden-xs" />
-                    <Label className="text-muted">Message</Label>
                     <Input type="textarea" id="message" placeholder="Enter Message" />
                     <div className="error message"></div>
                     

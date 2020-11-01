@@ -1,0 +1,29 @@
+#main-content {
+    margin: 0;
+    padding: 0;
+    background: url(amlem.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#submitButton {
+    background-color: #de7119;
+    color: #f0e8e3;
+    border: none;
+    width: 163px;
+}
+
+#name, #email, #subject, #message {
+    overflow: hidden;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 3px #de7119 solid;
+}
+
+.error, #form-messages {
+    font-size: 16px;
+    font-weight: bold;
+}

@@ -61,7 +61,7 @@ export class NavbarComponent extends Component {
                     </div>
                 </Navbar>
                 <Modal isOpen={this.state.isModalOpen} toggle={this.toggleModal}>
-                    <ModalHeader toggle={this.toggleModal}>Contact Me</ModalHeader>
+                    <ModalHeader toggle={this.toggleModal} style={{ color: "#de7119" }}>Contact Me</ModalHeader>
                     <ModalBody>
                         <Contact isModalOpen={this.toggleModal} />
                     </ModalBody>
