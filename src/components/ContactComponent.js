@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import emailjs from 'emailjs-com'
 import Recaptcha from 'react-recaptcha'
-import { Button, Form, Label, Input } from 'reactstrap'
+import { Button, Form, Input } from 'reactstrap'
 import '../styles/ContactStyle.css'
 
 class Contact extends Component {

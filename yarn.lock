@@ -1313,10 +1313,10 @@
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
   integrity sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw==
 
-"@solariss/react-on-show@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@solariss/react-on-show/-/react-on-show-1.0.1.tgz#185a899353de75d7b85147cdea2408982dd7e7ab"
-  integrity sha512-wlErMhySHOlGo5I/aToqkWyqlCfKZtTHLNLbIxdD3y/HU1VnOzbTh7+JZ8ifV//c3Na9m282cGIcbj6wLyf6IQ==
+"@solariss/react-on-show@2":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@solariss/react-on-show/-/react-on-show-2.1.1.tgz#6d3cc01580cd3076511c8dbdf48f95238114ee0f"
+  integrity sha512-ahyZqaIMkd0eFhGqBkFRi1135N+8VLmW/0tVLqNcwnqEpzm1iodoTVa/sw9AYJtoOpThL/jodrMAi82s6dOvGA==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"

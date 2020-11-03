@@ -5,19 +5,19 @@ import Anime from 'animejs'
 export class CVComponent extends Component {
 
     componentDidMount() {
-        onShow(document.getElementById("Turkish"), () => { Anime({targets: "#Turkish", width: "100%", duration: 5000}) })
-        onShow(document.getElementById("English"), () => { Anime({targets: "#English", width: "80%", duration: 5000}) })
-        onShow(document.getElementById("Java"), () => { Anime({targets: "#Java", width: "80%", duration: 5000}) })
-        onShow(document.getElementById("CProgram"), () => { Anime({targets: "#CProgram", width: "80%", duration: 5000}) })
-        onShow(document.getElementById("Flusk"), () => { Anime({targets: "#Flusk", width: "70%", duration: 5000}) })
-        onShow(document.getElementById("CSharp"), () => { Anime({targets: "#CSharp", width: "50%", duration: 5000}) })
-        onShow(document.getElementById("SQL"), () => { Anime({targets: "#SQL", width: "90%", duration: 5000}) })
-        onShow(document.getElementById("HTML"), () => { Anime({targets: "#HTML", width: "60%", duration: 5000}) })
-        onShow(document.getElementById("CSS"), () => { Anime({targets: "#CSS", width: "60%", duration: 5000}) })
-        onShow(document.getElementById("JavaScript"), () => { Anime({targets: "#JavaScript", width: "60%", duration: 5000}) })
-        onShow(document.getElementById("React"), () => { Anime({targets: "#React", width: "60%", duration: 5000}) })
-        onShow(document.getElementById("ReactNative"), () => { Anime({targets: "#ReactNative", width: "30%", duration: 5000}) })
-        onShow(document.getElementById("Bootstrap"), () => { Anime({targets: "#Bootstrap", width: "60%", duration: 5000})})
+        onShow(document.getElementById("Turkish"), {enter: () => { document.getElementById("Turkish").style.width = "100%" }})
+        onShow(document.getElementById("English"), {enter: () => { document.getElementById("English").style.width = "80%" }})
+        onShow(document.getElementById("Java"), {enter: () => { document.getElementById("Java").style.width = "80%" }})
+        onShow(document.getElementById("CProgram"), {enter: () => { document.getElementById("CProgram").style.width = "80%" }})
+        onShow(document.getElementById("Flusk"), {enter: () => { document.getElementById("Flusk").style.width = "70%" }})
+        onShow(document.getElementById("CSharp"), {enter: () => { document.getElementById("CSharp").style.width = "80%" }})
+        onShow(document.getElementById("SQL"), {enter: () => { document.getElementById("SQL").style.width = "90%" }})
+        onShow(document.getElementById("HTML"), {enter: () => { document.getElementById("HTML").style.width = "60%" }})
+        onShow(document.getElementById("CSS"), {enter: () => { document.getElementById("CSS").style.width = "60%" }})
+        onShow(document.getElementById("JavaScript"), {enter: () => { document.getElementById("JavaScript").style.width = "60%" }})
+        onShow(document.getElementById("React"), {enter: () => { document.getElementById("React").style.width = "60%" }})
+        onShow(document.getElementById("ReactNative"), {enter: () => { document.getElementById("ReactNative").style.width = "30%" }})
+        onShow(document.getElementById("Bootstrap"), {enter: () => { document.getElementById("Bootstrap").style.width = "60%" }})
         Anime({targets: "#CVComp", opacity: 1, duration: 5000})
     }
 
@@ -60,7 +60,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="Turkish" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="Turkish" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                             <div className="col-12 col-sm-4">
@@ -68,7 +68,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="English" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="English" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -104,7 +104,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="Java" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="Java" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="CProgram" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="CProgram" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="Flusk" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="Flusk" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="CSharp" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="CSharp" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="SQL" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="SQL" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -154,7 +154,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="HTML" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="HTML" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +164,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="CSS" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="CSS" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="JavaScript" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="JavaScript" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +184,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="React" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="React" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="ReactNative" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="ReactNative" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
@@ -204,7 +204,7 @@ export class CVComponent extends Component {
                             </div>
                             <div className="col-12 col-sm-8">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="Bootstrap" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979"}}></div>
+                                    <div id="Bootstrap" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
