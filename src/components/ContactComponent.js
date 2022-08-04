@@ -100,7 +100,7 @@ class Contact extends Component {
               message: message,
             }
             emailjs.send(
-              'service_ticxr1i',
+              'service_5pbxmzg',
               'template_m61cwdb',
               templateParams,
               'user_yG2R994s36vANeqoo11tm'

@@ -24,11 +24,11 @@ export class WelcomeComponent extends Component {
                                 <a onClick={this.fadein}><span className="fa fa-address-card fa-lg"></span></a>
                                 <a href="https://www.linkedin.com/in/salih-%C3%B6zyurt-ba6a2395/" target = "_blank" rel="noopener noreferrer"><span className="fa fa-linkedin fa-lg"></span></a>
                                 <a href="https://github.com/salihozyurt" target = "_blank" rel="noopener noreferrer"><span className="fa fa-github fa-lg"></span></a>
-                                <a href="mailto:salih.zyurt@gmail.com" target = "_blank" rel="noopener noreferrer"><span className="fa fa-google fa-lg"></span></a>
+                                <a href="mailto:salihozyurt@salihozyurt.tech" target = "_blank" rel="noopener noreferrer"><span className="fa fa-google fa-lg"></span></a>
                                 <a href="mailto:salihozyurt@yahoo.com" target = "_blank" rel="noopener noreferrer"><span className="fa fa-yahoo fa-lg"></span></a>
                             </div>
                             <div className="col-12 col-sm-8">
-                                <p>Web Developer</p>
+                                <p>Backend Developer</p>
                             </div>
                         </div>
                     </div>

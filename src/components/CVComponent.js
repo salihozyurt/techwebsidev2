@@ -7,17 +7,20 @@ export class CVComponent extends Component {
     componentDidMount() {
         onShow(document.getElementById("Turkish"), {enter: () => { document.getElementById("Turkish").style.width = "100%" }})
         onShow(document.getElementById("English"), {enter: () => { document.getElementById("English").style.width = "80%" }})
-        onShow(document.getElementById("Java"), {enter: () => { document.getElementById("Java").style.width = "80%" }})
-        onShow(document.getElementById("CProgram"), {enter: () => { document.getElementById("CProgram").style.width = "80%" }})
-        onShow(document.getElementById("Flusk"), {enter: () => { document.getElementById("Flusk").style.width = "70%" }})
-        onShow(document.getElementById("CSharp"), {enter: () => { document.getElementById("CSharp").style.width = "80%" }})
-        onShow(document.getElementById("SQL"), {enter: () => { document.getElementById("SQL").style.width = "90%" }})
+        onShow(document.getElementById("TypeScript"), {enter: () => { document.getElementById("TypeScript").style.width = "70%" }})
+        onShow(document.getElementById("Mongo"), {enter: () => { document.getElementById("Mongo").style.width = "60%" }})
+        onShow(document.getElementById("NodeJS"), {enter: () => { document.getElementById("NodeJS").style.width = "80%" }})
+        onShow(document.getElementById("AWS"), {enter: () => { document.getElementById("AWS").style.width = "40%" }})
+        onShow(document.getElementById("Net"), {enter: () => { document.getElementById("Net").style.width = "40%" }})
+        onShow(document.getElementById("SQL"), {enter: () => { document.getElementById("SQL").style.width = "80%" }})
+        onShow(document.getElementById("JavaScript"), {enter: () => { document.getElementById("JavaScript").style.width = "75%" }})
         onShow(document.getElementById("HTML"), {enter: () => { document.getElementById("HTML").style.width = "60%" }})
         onShow(document.getElementById("CSS"), {enter: () => { document.getElementById("CSS").style.width = "60%" }})
-        onShow(document.getElementById("JavaScript"), {enter: () => { document.getElementById("JavaScript").style.width = "60%" }})
-        onShow(document.getElementById("React"), {enter: () => { document.getElementById("React").style.width = "60%" }})
-        onShow(document.getElementById("ReactNative"), {enter: () => { document.getElementById("ReactNative").style.width = "30%" }})
-        onShow(document.getElementById("Bootstrap"), {enter: () => { document.getElementById("Bootstrap").style.width = "60%" }})
+        onShow(document.getElementById("React"), {enter: () => { document.getElementById("React").style.width = "40%" }})
+        onShow(document.getElementById("Flusk"), {enter: () => { document.getElementById("Flusk").style.width = "70%" }})
+        onShow(document.getElementById("CProgram"), {enter: () => { document.getElementById("CProgram").style.width = "60%" }})
+        onShow(document.getElementById("CSharp"), {enter: () => { document.getElementById("CSharp").style.width = "35%" }})
+        
         Anime({targets: "#CVComp", opacity: 1, duration: 5000})
     }
 
@@ -33,7 +36,7 @@ export class CVComponent extends Component {
                         <hr className="solid" style={{ borderTop: "2px solid #fff", borderRadius: "5px" }} />
                         <div className="row">
                             <div className="col">
-                                <p style={{ color: "white" }}>I have taken Computer Technician degree at Trakya University for 2015. I am still student for Computer Science at Marmara University. I try to upgrade myself day to day learning new programing languages in order to be important piece of team that I will work together. I want to manage own company for the future. I go to my target step by step and I know what I want.</p>
+                                <p style={{ color: "white" }}>I'm currently working at Armut as Backend Developer. Lately, I interest in Cloud Systems and try to learn anything about that. One of reasons why I chose the working area is that. I improve myself day by day to be beneficial of my team that I work together. I like teach what I learn. Not just about technologies. It can be about anything such as movies, documentaries, finance. I can say that I like research in summary.</p>
                             </div>
                         </div>
                     </div>
@@ -43,7 +46,7 @@ export class CVComponent extends Component {
                         <h3>Personal</h3>
                         <hr className="solid" style={{ borderTop: "2px solid #000", borderRadius: "5px" }} />
                         <h5>Address</h5>
-                        <p>Merkez Mah. Abide-i Hürriyet Cad. Şişli/İSTANBUL</p>
+                        <p>Denizköşkler Mah. Avcılar/İSTANBUL</p>
                         <h5>Birthdate</h5>
                         <p>10-07-1995</p>
                         <h5>Birthplace</h5>
@@ -78,133 +81,173 @@ export class CVComponent extends Component {
                         <hr className="solid" style={{ borderTop: "2px solid #000", borderRadius: "5px" }} />
                         <div className="row justify-content-between">
                             <div className="col-12 col-sm-4">
-                                <h4>Teller</h4>
-                            </div>
-                            <div className="col-12 col-sm-4">
-                                <p>Jul 2009-Jul 2017</p>
-                            </div>
-                        </div>
-                        <p><i><b>Villa Döviz A.Ş. ISTANBUL/Şişli</b></i></p>
-                        <p>I have worked as a teller to earn pocket money on summer time at the Villa Currency Exchange Office until gain the university.</p>
-                        <div className="row justify-content-between">
-                            <div className="col-12 col-sm-4">
                                 <h4>IT Intern</h4>
                             </div>
                             <div className="col-12 col-sm-4">
-                                <p>Sep 2012-Jun2013</p>
+                                <p>Sep 2012 - Jun2013</p>
                             </div>
                         </div>
                         <p><i><b>CaniasERP ISTANBUL/Yenibosna</b></i></p>
                         <p>At CaniasERP, I worked as a IT Trainee for trainee program of my high school.</p>
+                        <div className="row justify-content-between">
+                            <div className="col-12 col-sm-4">
+                                <h4>Intern</h4>
+                            </div>
+                            <div className="col-12 col-sm-4">
+                                <p>May 2021 - Jun 2021</p>
+                            </div>
+                        </div>
+                        <p><i><b>IBTECH KOCAELİ/Gebze</b></i></p>
+                        <p>I worked at IBTECH as Software Engineer Intern for a while to complete my college internship. I was member of team that develop Desktop Program using SQL, .Net.</p>
+                        <div className="row justify-content-between">
+                            <div className="col-12 col-sm-4">
+                                <h4>JS Developer</h4>
+                            </div>
+                            <div className="col-12 col-sm-4">
+                                <p>Jun 2021 - Nov 2021</p>
+                            </div>
+                        </div>
+                        <p><i><b>Insider İSTANBUL/Levent</b></i></p>
+                        <p>At Insider, I was on the Partner Support Department. In my department, we were making the Insider products appropriate to partners' website using HTML, Javascript and CSS. Sometimes, we take Web Service tasks to take correct request payload from partners' websites. It looks like Backend for Frontend Pattern.</p>
+                        <div className="row justify-content-between">
+                            <div className="col-12 col-sm-4">
+                                <h4>Backend Developer</h4>
+                            </div>
+                            <div className="col-12 col-sm-4">
+                                <p>Nov 2021 - Working</p>
+                            </div>
+                        </div>
+                        <p><i><b>Armut İSTANBUL/Acıbadem</b></i></p>
+                        <p>I working Payment & Finance Team as Backend Developer. I make existing APIs better and develop  new APIs using different programing languages like TypeScript, .Net, etc. We use AWS Services by requirements of our architecture.</p>
                         <h3>Skills</h3>
                         <hr className="solid" style={{ borderTop: "2px solid #000", borderRadius: "5px" }} />
                         <div className="row">
-                            <div className="col-12 col-sm-4">
-                                <h6>Java Programing Language</h6>
+                            <div className="col-12 col-sm-6">
+                                <h6>TypeScript</h6>
                             </div>
-                            <div className="col-12 col-sm-8">
+                            <div className="col-12 col-sm-6">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="Java" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                    <div id="TypeScript" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-sm-4">
-                                <h6>C Programing Language</h6>
+                            <div className="col-12 col-sm-6">
+                                <h6>MongoDB</h6>
                             </div>
-                            <div className="col-12 col-sm-8">
+                            <div className="col-12 col-sm-6">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="CProgram" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                    <div id="Mongo" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-sm-4">
-                                <h6>Flusk</h6>
+                            <div className="col-12 col-sm-6">
+                                <h6>NodeJS Frameworks (Express, Winston, etc.)</h6>
                             </div>
-                            <div className="col-12 col-sm-8">
+                            <div className="col-12 col-sm-6">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="Flusk" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                    <div id="NodeJS" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-sm-4">
-                                <h6>C# Programing Language</h6>
+                            <div className="col-12 col-sm-6">
+                                <h6>AWS Services (S3, Lambda, etc.)</h6>
                             </div>
-                            <div className="col-12 col-sm-8">
+                            <div className="col-12 col-sm-6">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="CSharp" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                    <div id="AWS" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-sm-4">
+                            <div className="col-12 col-sm-6">
+                                <h6>.Net</h6>
+                            </div>
+                            <div className="col-12 col-sm-6">
+                                <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
+                                    <div id="Net" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-12 col-sm-6">
                                 <h6>SQL</h6>
                             </div>
-                            <div className="col-12 col-sm-8">
+                            <div className="col-12 col-sm-6">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
                                     <div id="SQL" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-sm-4">
-                                <h6>HTML</h6>
-                            </div>
-                            <div className="col-12 col-sm-8">
-                                <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="HTML" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-12 col-sm-4">
-                                <h6>CSS</h6>
-                            </div>
-                            <div className="col-12 col-sm-8">
-                                <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="CSS" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-12 col-sm-4">
+                            <div className="col-12 col-sm-6">
                                 <h6>JavaScript</h6>
                             </div>
-                            <div className="col-12 col-sm-8">
+                            <div className="col-12 col-sm-6">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
                                     <div id="JavaScript" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-sm-4">
+                            <div className="col-12 col-sm-6">
+                                <h6>HTML</h6>
+                            </div>
+                            <div className="col-12 col-sm-6">
+                                <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
+                                    <div id="HTML" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-12 col-sm-6">
+                                <h6>CSS</h6>
+                            </div>
+                            <div className="col-12 col-sm-6">
+                                <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
+                                    <div id="CSS" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-12 col-sm-6">
                                 <h6>React</h6>
                             </div>
-                            <div className="col-12 col-sm-8">
+                            <div className="col-12 col-sm-6">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
                                     <div id="React" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-sm-4">
-                                <h6>React Native</h6>
+                            <div className="col-12 col-sm-6">
+                                <h6>Flusk</h6>
                             </div>
-                            <div className="col-12 col-sm-8">
+                            <div className="col-12 col-sm-6">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="ReactNative" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                    <div id="Flusk" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-sm-4">
-                                <h6>Bootstrap</h6>
+                            <div className="col-12 col-sm-6">
+                                <h6>C Programing Language</h6>
                             </div>
-                            <div className="col-12 col-sm-8">
+                            <div className="col-12 col-sm-6">
                                 <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
-                                    <div id="Bootstrap" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                    <div id="CProgram" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-12 col-sm-6">
+                                <h6>C# Programing Language</h6>
+                            </div>
+                            <div className="col-12 col-sm-6">
+                                <div style={{ border: "2px solid #de7119", borderRadius: "5px"}}>
+                                    <div id="CSharp" style={{ border: "2px solid #116979", borderRadius: "2px", height: "2vh", width: "0%", backgroundColor: "#116979", transition: "all 1.5s ease-in-out"}}></div>
                                 </div>
                             </div>
                         </div>

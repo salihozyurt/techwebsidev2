@@ -48,7 +48,7 @@ export class NavbarComponent extends Component {
                                     <NavLink href="https://github.com/salihozyurt" target = "_blank"><span className="fa fa-github fa-lg"></span> Github</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="mailto:salih.zyurt@gmail.com" target = "_blank"><span className="fa fa-google fa-lg"></span> GMail</NavLink>
+                                    <NavLink href="mailto:salihozyurt@salihozyurt.tech" target = "_blank"><span className="fa fa-google fa-lg"></span> GMail</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="mailto:salihozyurt@yahoo.com" target = "_blank"><span className="fa fa-yahoo fa-lg"></span> Yahoo</NavLink>
